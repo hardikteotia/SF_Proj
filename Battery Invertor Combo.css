@@ -1,0 +1,216 @@
+header {
+    margin: 0px;
+    /* padding: 0px; */
+    background-color: #000000; /* Adjust the color to your brand identity */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+  }
+  
+  /* Style for navigation links (buttons) */
+  nav ul li {
+    display: inline-block; /* Display the list items (links) horizontally */
+    margin-right: 10px; /* Add some space between the navigation links */
+  }
+  
+  nav ul li a {
+    display: block; /* Make the links full width for clickable areas */
+    padding: 8px 15px; /* Add padding to create the button-like appearance */
+    background-color: #000000; /* Set background color for the buttons */
+    color: #ffffff; /* Set text color */
+    text-decoration: none; /* Remove underline from the links */
+    border: 1px solid #ccc; /* Add a border to the buttons */
+    border-radius: 5px; /* Round the corners of the buttons */
+  }
+
+  nav ul li a:hover {
+    background-color: #ffffff; /* Change background color on hover */
+    color: #000000;
+  }
+
+  html{
+    scroll-behavior: smooth;
+  }
+
+  /* /logo CSS/ */
+  .logo img {
+    width: 50%; /* Adjust the logo width as needed */
+    height: 50%;
+  }
+
+
+
+.heading{
+    position: relative;
+    top: 20px;
+    text-align: center;
+    font-size: 30px;
+}
+
+
+
+.zoom {
+    display: flex;
+    padding: 10px 50px 20px;
+    flex-wrap: wrap;
+  justify-content: center;
+  }
+  
+  .box-container {
+    display: flex;
+    flex-flow: row nowrap;
+    position: relative;
+    top: 25px;
+    padding: 10px; 
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .box {
+    flex: 1;
+    width: 250px;
+    height: 300px;
+    margin: 10px;
+    background-color: #f5f6fa;
+    border-radius: 10px;
+    overflow: hidden; 
+    text-align: center;
+  }
+  
+  .box img {
+    max-width: 100%; /* Make the image occupy the entire box width */
+    max-height: 90%; /* Maintain aspect ratio */
+    padding: 20px;
+    display: block;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+  }
+  
+  .box p {
+    margin: 0px;
+    font-size: 18px;
+    /* Add styles for the text "product" */
+  }
+  
+  .box:hover {
+    transform: scale(1.05); /* Scale up the box on hover */
+  }
+
+
+
+
+
+
+  .about-us-contact {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    /* Add styles for the section containing "About Us" and "Contact Form" */
+  }
+  
+  .about-us, .contact-form {
+    flex: 1;
+    padding: 20px;
+    /* border: 1px solid #ccc; */
+    border-radius: 5px;
+    position: relative;
+    top: 0px;
+    /* Add styles for each section */
+  }
+  
+  .about-us h2, .contact-form h2 {
+    margin-top: 0;
+    font-size: 25px;
+    /* Add styles for the section headings */
+  }
+  
+  .about-us p {
+    margin-bottom: 0;
+    /* Add styles for the paragraph in "About Us" section */
+  }
+  
+  .contact-form form {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    /* Add styles for the contact form */
+  }
+  
+  .contact-form input, .contact-form textarea {
+    margin-left: 200px;
+    margin-bottom: 10px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    /* Add styles for form fields */
+  }
+  
+  .contact-form button {
+    padding: 10px 20px;
+    margin-left: 200px;
+    background-color: #06db9b;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    /* Add styles for the form button */
+  }
+  
+  .contact-form button:hover {
+    background-color: #000000;
+    color: white;
+  }
+  
+  
+  
+  /* /footer CSS/ */
+  
+  .footer {
+    background-color: #000000;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    top: 10px;
+  }
+  
+  .footer-navigation ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 10px;
+  }
+  
+  .footer-navigation li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  .footer-navigation li:last-child {
+    margin-right: 0;
+  }
+  
+  .footer-navigation a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  .social-icons a {
+    display: inline-block;
+    margin-right: 15px;
+  }
+  
+  .social-icons a:last-child {
+    margin-right: 0;
+  }
+  
+  .social-icons img {
+    width: 30px; /* Adjust the size of social media icons as needed */
+    height: 30px; /* Maintain the aspect ratio */
+  }
+  
+  .footer .copyright {
+    margin-top: 20px;
+    font-size: 14px;
+  }
